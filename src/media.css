@@ -1,0 +1,88 @@
+@media screen and (max-width: 480px) {
+	.banner-info-left{
+		width: 100%;
+		min-width: 350px;
+	}
+	.slider{
+		width: 100%;
+	}
+	#for-img1{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 780px) and (min-width: 481px){
+	.banner-info-left{
+		width: 60%;
+		display: inline-block;
+		float: left;
+	}
+	#for-img1{
+		width: 100%;
+		/*float: left;*/
+		display: inline-block;
+
+	}
+	#for-img1 img{
+		width: 100%;
+		text-align: center;
+	}
+	.slider{
+		width: 40%;
+		float: right;
+	}
+	#for-img1 .bots {
+		left: 30%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.header-bg{
+		background: #f7f7f7;
+	}
+	.for_apple .container .txt2{
+		display: none;
+	}
+	.features .area #left-img img{
+		margin-left: 12em;
+		margin-top: 2em;
+		margin-bottom: 6em;
+	}
+	.features .area .features-right .right-total{
+		width: 100%;
+	}
+	.gift .for-img1{
+		padding-left: 5em;
+		margin-bottom: 2em!important;
+	}
+	.gift .container .banner-text .txt1{
+		text-align: center;
+	}
+	.clarity-bg .container .wrap{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 640px) {
+	.for_apple .container form .input1 {
+		padding:0.7em 0.5em 0.5em;
+	}
+	.features .area #left-img img{
+		margin-left: 2em;
+	}
+	.features .area .features-right{
+		padding-left: 3em;
+	}
+	.wait .container .txt2 .size{
+		width: 100%;
+		text-align: center;
+	}
+	.up-right .inner{
+		margin-left: -5em;
+	}
+	.up-right .inner .area a{
+		margin-left: 3em;
+	}
+}
+@media screen and (max-width: 768px) {
+	.clarity-bg .container .wrap{
+		margin: 2em 0 0 0;
+	}
+}

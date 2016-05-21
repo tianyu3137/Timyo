@@ -1,0 +1,504 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+h2{
+	font-size: 16px;
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+/*全局样式*/
+.header-bg{
+	background: url('../img/banner1.jpg');
+	background-size: cover;
+	padding-bottom: 6em;
+}
+.header-bg .header{
+	padding-top: 1em;
+}
+.header-bg .header .navbar {
+	background-color: transparent;
+	border-color: transparent;
+}
+#nav-botton{
+	margin-top: 30px;
+}
+.header-bg .header .navbar .container .press{
+	padding-top: 25px;
+}
+.header-bg .header .navbar .container .press li a{
+	color: black;
+	font-size: 28px;
+	font-weight: 300;
+}
+.press li a:hover{
+	background-color: transparent;
+}
+
+/*分割*/
+.tagline ul {
+	position: relative;
+}
+.tagline ul li{
+	position: absolute;
+	top: -21px;
+	left: 200px;
+	opacity: 0;
+	transition: all 1.2s;
+}
+.tagline ul li:nth-child(1){
+	position: static;
+	opacity: 1;
+}
+.tagline ul li h2{
+	font-size: 24px;
+}
+.slider{
+	/*overflow: hidden;*/
+	text-align: center;
+}
+#for-img1{
+	position: relative;
+}
+#for-img1 .bots {
+	overflow: hidden;
+	list-style: none;
+	position: absolute;
+	bottom:-50px;
+	left: 40%;
+	z-index: 999;
+}
+#for-img1 .bots li{
+	float: left;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-right: 8px;
+	cursor: pointer;
+	border: 1px solid blue;
+}
+#for-img1 .lunbotu{
+	list-style: none;
+	position: relative;
+}
+#for-img1 .lunbotu li {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#for-img1 .lunbotu li:nth-child(1){
+	position: static;
+}
+#for-img1 .lunbotu li img{
+	transition: all 1s;
+}
+.active{
+	background-color: white;
+}
+/*第一个区域结束*/
+/*第二个区域开始*/
+.for_apple{
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background-color: #fff;
+	text-align: center;
+}
+.for_apple .container h3{
+	font-size: 34px;
+	font-weight: 200;
+	color:#404040;
+}
+.for_apple .container .txt1{
+	font-size: 14px;
+	font-weight: 200;
+	color: #404040;
+}
+.for_apple .container .txt2{
+	width: 100%;
+	margin:30px 0;
+	padding-bottom: 30px;
+	border-bottom:1px solid rgba(132,140,154,0.2);
+}
+.for_apple .container .txt2 .inner{
+	width: 380px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.for_apple .container .txt2 .wrap{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+.for_apple .container .txt2 .wrap .icon-small{
+	position: absolute;
+	top: 14px;
+	left: 6px;
+	margin:auto;
+	height: 11px;
+	width: 20px;
+	background-image: url('../img/icon.png');
+	background-position: -5241px 0;
+	background-color: white;
+	cursor: pointer;
+}
+.for_apple .container .txt2 .wrap .caret{
+	position: absolute;
+	bottom: 15px;
+	left: 30px;
+	cursor:pointer;
+}
+.for_apple .container .txt2 .wrap input{
+	width: 220px;
+	height: 36px;
+	padding: 7px;
+	padding-left: 45px;
+	display: block;
+	margin: 0;
+	border-radius: 4px;
+	font-size: 14px;
+	outline: none;
+	text-indent: 2%;
+	margin-right: 10px;
+	border:1px solid #ddd;
+	color: #333;
+}
+.for_apple .container .txt2 .btn{
+	background-color: #aaa;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+	width: 140px;
+	height: 36px;
+	text-align: center;
+	color: #fff;
+	padding: 6px 12px;
+}
+.for_apple .container .txt2 .btn:hover{
+	background-color: #666;
+}
+.for_apple .container .txt3{
+	font-size: 18px;
+	font-weight: 200;
+	color: #404040;
+}
+.for_apple .container form .input1{
+	font-weight: 300;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	padding: .5em 8em;
+	margin: 1em;
+	border: 1px solid #404040;
+	text-align: center;
+}
+.for_apple .container .txt4 {
+	color: #404040;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+}
+.for_apple .container .input2{
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	outline: none;
+	opacity: 0.3;
+	background: url(../img/android.jpg);
+	margin-right: 5px;
+}
+.for_apple .container .input3{
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	outline: none;
+	opacity: 0.3;
+	background: url(../img/windows.jpg);
+}
+/*apple部分结束*/
+/*wait部分*/
+.wait{
+	padding: 12em 0 8em;
+	background-color: #f7f7f7;
+}
+.wait .container .txt1 h3{
+	font-size: 40px;
+	color: #404040;
+	font-weight: 200;
+}
+.wait .container #for_img img{
+	float: left;
+	margin-right: 5em;
+	margin-bottom: 1em;
+	max-width: 100%;
+	max-height: 100%;
+}
+.wait .container .txt2 {
+	text-align: center;
+}
+.wait .container .txt2 .size{
+	color: #404040;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: left;
+	width: 84%;
+	line-height: 35px;
+}
+/*wait部分结束*/
+/*未来部分开始*/
+.features{
+	padding-top: 4em;
+	border-bottom: 1px solid rgba(132,140,154,0.2);
+	overflow: hidden;
+}
+.features #what-matter .txt1{
+	color:#404040;
+	font-weight: 200;
+	margin: 1em 0 0 0;
+	font-size: 32px;
+}
+.features #what-matter .txt2 .link1{
+	font-size: 22px;
+	font-weight: 300;
+	color:rgb(0,136,204);
+}
+.features .area #left-img img{
+	float: left;
+	margin-right: 4em;
+	max-width: 100%;
+	max-height: 100%;
+}
+.features .area .features-right{
+	margin-top:5em;
+	padding-bottom: 6em;
+	padding-left: 9em;
+}
+.features .area .features-right .wrap{
+	margin-top: 0;
+}
+.features .area .features-right .wrap .right-total{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+.design-blue,.design-yellow,.design-green,.design-red{
+	float: left;
+	margin-left: 0;
+}
+.design-blue a h5,.design-yellow a h5,.design-green a h5,.design-red a h5{
+	margin: 0;
+	font-size:20px;
+	font-weight: 300;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	display: block;
+}
+.design-blue a h5 {
+	background-image: url('../img/bg1.png');
+	background-repeat: no-repeat;
+	color:#007aff;	
+}
+.design-yellow a h5 {
+	background-image: url('../img/bg2.png');
+	background-repeat: no-repeat;
+	color:#ffcc01;	
+}
+.design-green a h5 {
+	background-image: url('../img/bg3.png');
+	background-repeat: no-repeat;
+	color:#4cd964;	
+}
+.design-red a h5 {
+	background-image: url('../img/bg4.png');
+	background-repeat: no-repeat;
+	color:#ff3b30;	
+}
+.design-blue .txtq,.design-yellow .txtq,.design-green .txtq,.design-red .txtq{
+	font-weight: 200;
+	font-size: 18px;
+	margin: 0;
+}
+.right-total .txtq{
+	color:#686868;
+}
+/*未来部分结束*/
+/*gift部分*/
+.gift{
+	padding-bottom: 2em;
+	padding-top: 8em;
+	background: #f7f7f7;
+}
+.gift .container .expeciations{
+	overflow: hidden;
+}
+.gift .for-img1{
+	padding-right: 5em;
+	float: left;
+	max-width: 100%;
+	max-height: 100%;
+}
+.gift .container .banner-text .txt1{
+	color:#404040;
+	text-align: left;
+	font-size: 40px;
+	font-weight: 200;
+	margin: 1em 0 0 0;
+}
+.gift .container .banner-text .txt2{
+	text-align: left;
+	color:#404040;
+	font-weight: 200;
+	font-size:20px;
+	margin: 2em 0 0 2em;
+}
+/*gift部分结束*/
+/*桌面工作部分开始*/
+.clarity-bg .container .txt1{
+	font-size: 36px;
+	color:#404040;
+	text-align: center;
+	font-weight: 200;
+	margin: 3em 0 2em 0;
+}
+.clarity-bg .container .wrap{
+	margin: 0 0 8em 0;
+}
+.clarity-bg .container .wrap img{
+	max-width: 100%;
+}
+/*桌面工作部分结束*/
+/*mission部分开始*/
+.clarity-bg .txt1{
+	font-size: 40px;
+	font-weight: 200;
+	margin: 3em 0 2em 0;
+	color: #404040;
+}
+.clarity-bg .area1{
+	margin:0 0 8em 0;
+	overflow: hidden;
+}
+.clarity-bg .area1 .inner{
+	text-align: center;
+}
+.clarity-bg .area1 .inner h4{
+	font-size: 26px;
+	margin: 0.5em 0 1.5em 0;
+}
+.clarity-bg .area1 .inner p{
+	margin: 0 auto;
+	width: 90%;
+	line-height: 1.3em;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 200;
+	color:#696969;
+}
+/*miss部分结束*/
+/*upgrade部分开始*/
+.upgrade{
+	background: #fff;
+	border-bottom: 1px solid rgba(132,140,154,0.2)
+}
+.upgrade .txt1{
+	margin-top: 3em;
+	font-weight: 200;
+	color: #404040;
+	font-size: 40px;
+}
+.upgrade .img1{
+	padding-top: 8em;
+}
+.up-right{
+	margin-top: 5em;
+	padding-bottom: 6em;
+	padding-left: 9em!important;
+}
+.up-right .inner{
+	margin-top: 0;
+}
+.up-right .inner .area{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+.up-right .inner .area .design-red{
+	float: left;
+	margin-left: 0;
+}
+.up-right .inner .area .design-red .txt2{
+	margin: 0;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	display: block;
+	background: url(../img/bg4.png);
+	background-repeat: no-repeat;
+	color: #000;
+	font-weight: 300;
+}
+.up-right .inner .area .design-red .txt3{
+	font-size: 18px;
+	margin: 0;
+	font-weight: 300;
+	color: #686868;
+}
+.up-right .inner .area .link3 img{
+	margin-top: 60px;
+}
+/*up部分结束*/
+/*footer*/
+.footer-info{
+	background: #fff;
+	padding: 0 0 1em 0;
+}
+.footer-info .txt1{
+	font-size: 16px;
+	font-weight: 300;
+	margin:0;
+	color: #404040;
+}
+.footer-info a{
+	text-decoration: none;
+	color:#1B242F;
+}
+.footer-info .txt2{
+	font-size: 12px;
+	color: #404040;
+	font-weight: 300;
+	margin:0;
+}
+.rocket{
+	width: 203px;
+	height: 60px;
+	position: fixed;
+	bottom: 45px;
+	right: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
